@@ -6,5 +6,7 @@ rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR cti-admin@137.99.8.3:travis_ci
 # git push deploy master
 
 echo "Done copying!"
-echo "Starting node server..."
-node app.js
+
+echo "Starting server..."
+ssh cti-admin@137.99.8.3 "cd travis_ci_testing; node app.js"
+echo "App is running!"

@@ -8,5 +8,5 @@ rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/ cti-admin@137.99.8.3:travis_c
 echo "Done copying!"
 
 echo "Starting server..."
-ssh cti-admin@137.99.8.3 "sudo start travis_ci_testing"
+ssh cti-admin@137.99.8.3 "start travis_ci_testing"
 echo "Server started!"

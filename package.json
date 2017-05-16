@@ -1,0 +1,22 @@
+{
+  "name": "travis_ci_testing",
+  "version": "1.0.0",
+  "description": "Testing automatic testing and deploy with Travis CI",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gssjr/travis_ci_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gssjr/travis_ci_testing/issues"
+  },
+  "homepage": "https://github.com/gssjr/travis_ci_testing#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
